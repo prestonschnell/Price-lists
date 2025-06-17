@@ -5,7 +5,7 @@ import logo from "../assets/logo.png"
 const Nav = () => {
   return (
     <div className="nav-container">
-      <img src={logo} alt="" />
+      <img src={logo} alt="Company Logo" />
       <ul className='drop-list'>
         <li>Product</li>
         <li>Templates</li>
@@ -14,8 +14,8 @@ const Nav = () => {
       </ul>
       <div className='nav-buttons'>
         <ul>
-            <button>Log In</button>
-            <button>Start Free</button>
+            <button id="button1">Log In</button>
+            <button id="button2">Start Free</button>
         </ul>
       </div>
     </div>
