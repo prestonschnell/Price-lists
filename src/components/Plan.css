@@ -1,0 +1,41 @@
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    gap: 20px;
+}
+
+
+
+
+
+.title {
+font-size: 20pt;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#background-button {
+    background-color: green;
+    border-radius: 200px;
+    height: 50px;
+    width: 150px;
+    /* cursor: pointer; */
+}
+
+#inner-button {
+    background-color: #fff;
+    border-radius: 200px;
+    height: 45px;
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+}

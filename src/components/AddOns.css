@@ -1,0 +1,32 @@
+.addon-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+}
+
+.div-container {
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 12px 0px 0px #f3f2f2;
+    padding: 0px 50px 0px 50px;
+}
+
+.div-container h1 {
+    font-size: 20pt;
+}
+
+.div-container p {
+    font-size: 15pt;
+}
+
+.price h1 {
+    font-size: 25pt;
+}
