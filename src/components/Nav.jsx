@@ -8,6 +8,7 @@ const Nav = () => {
       <img src={logo} alt="Company Logo" />
       <ul className='drop-list'>
         <li>Product</li>
+        
         <li>Templates</li>
         <li>Pricing</li>
         <li>Reviews</li>
